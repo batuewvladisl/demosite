@@ -1,7 +1,4 @@
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 .search {
   outline: 0;
@@ -67,7 +64,7 @@
 
 .films {
 	position: absolute;
-	color: red;
+	color: red !important;
 	border-bottom: 2px solid red;
 	width: 116px;
 	height: 33px;
@@ -81,9 +78,17 @@
 	text-align: right;
 }
 
+.films:hover {
+  text-decoration: none;
+}
+
+.tv:hover {
+  text-decoration: none;
+}
+
 .tv {
 	position: absolute;
-	width: 171px;
+	width: 170px;
 	height: 33px;
 	left: 705px;
 	top: 116px;
@@ -93,6 +98,7 @@
 	font-size: 29px;
 	line-height: 33px;
 	text-align: right;
+	color: #000 !important;
 }
 
 .new_text {

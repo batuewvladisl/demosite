@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.search {
+  outline: 0;
+  outline-offset: 0;
+  width: 25%;	
+  border: 0;
+  border-bottom: 1px solid #000000;
+}
+
+.search_btn {
+  width: 10%;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Rubik;
+  color: red;
+  border: 0;
+  background-color: inherit;
+}
+
+.search_btn:hover {
+  background: #eee;
+}
+
+
+.nav__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.nav__btn {
+	display: flex;
+  align-items: center;	
+  width: 90px;	
+  height: 30px;
+  background: red;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 15px 25px;
+  color: #ffffff;
+}
+.nav__btn:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+
+.tabs {
+    position: absolute;
+	width: 311px;
+	height: 42px;
+	left: 220px;
+	top: 30px;
+}
+
+.films {
+	position: absolute;
+	width: 116px;
+	height: 33px;
+	left: 565px;
+	top: 116px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	line-height: 33px;
+	text-align: right;
+  color: #000 !important;
+}
+
+.films:hover {
+  text-decoration: none;
+}
+
+.tv:hover {
+  text-decoration: none;
+}
+
+.tv {
+	position: absolute;
+  color: red !important;
+  border-bottom: 2px solid red;
+	width: 170px;
+	height: 33px;
+	left: 705px;
+	top: 116px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	line-height: 33px;
+	text-align: right;
+}
+
+.channels {
+  position: absolute;
+  width: 1180px;
+  height: 696px;
+  left: 380px;
+  top: 220px;
+}
+
+.item1 {
+  position: absolute;
+  width: 1180px;
+  height: 162px;
+  background: #F2F2F2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.one {
+  position: absolute;
+  left: 14.87%;
+  right: 80.96%;
+  top: 30.25%;
+  bottom: 30.25%;
+}
+
+.name1 {
+  position: absolute;
+  left: 33.9%;
+  right: 42.37%;
+  top: 12.96%;
+  bottom: 72.22%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.time1 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.name_tv1 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.time2 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv2 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.time3 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv3 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.item2 {
+  position: absolute;
+  width: 1180px;
+  height: 162px;
+  top: 178px;
+  background: #F2F2F2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.x2 {
+  position: absolute;
+  left: 12.12%;
+  right: 78.22%;
+  top: 34.57%;
+  bottom: 35.19%;
+}
+
+.name2 {
+  position: absolute;
+  left: 33.9%;
+  right: 42.37%;
+  top: 12.96%;
+  bottom: 72.22%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.time4 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.name_tv4 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.time5 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv5 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.time6 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv6 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.item3 {
+  position: absolute;
+  width: 1180px;
+  height: 162px;
+  top: 356px;
+  background: #F2F2F2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rbk {
+  position: absolute;
+  left: 14.59%;
+  right: 80.84%;
+  top: 33.33%;
+  bottom: 33.33%;
+}
+
+.name3 {
+  position: absolute;
+  left: 33.9%;
+  right: 42.37%;
+  top: 12.96%;
+  bottom: 72.22%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.time7 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.name_tv7 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.time8 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv8 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.time9 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv9 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.item4 {
+  position: absolute;
+  width: 1180px;
+  height: 162px;
+  top: 534px;
+  background: #F2F2F2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.amedia {
+  position: absolute;
+  left: 14.24%;
+  right: 80.34%;
+  top: 29.63%;
+  bottom: 30.86%;
+}
+
+.name4 {
+  position: absolute;
+  left: 33.9%;
+  right: 42.37%;
+  top: 12.96%;
+  bottom: 72.22%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.time10 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.name_tv10 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 38.27%;
+  bottom: 50%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5261E;
+}
+
+.time11 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv11 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 57.41%;
+  bottom: 30.86%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.time12 {
+  position: absolute;
+  left: 33.9%;
+  right: 62.2%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.name_tv12 {
+  position: absolute;
+  left: 39.15%;
+  right: 2.03%;
+  top: 76.54%;
+  bottom: 11.73%;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.footer_logo {
+  position: absolute;
+  width: 31.99px;
+  height: 64px;
+  left: 400px;
+  top: 28px;
+}
+
+.footer_t1 {
+  position: absolute;
+  width: 940px;
+  height: 19px;
+  left: 455px;
+  top: 22px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.footer_t2 {
+  position: absolute;
+  width: 940px;
+  height: 19px;
+  left: 455px;
+  top: 47px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.footer_t3 {
+  position: absolute;
+  width: 940px;
+  height: 19px;
+  left: 455px;
+  top: 76px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1F4766;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  top: 1090px;
+  background-color: #E5E5E5;
+}
